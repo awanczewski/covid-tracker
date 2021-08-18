@@ -1,38 +1,62 @@
-.App {
+.header {
+  padding: 20px 0px 20px 0px;
+}
+.left {
+  padding: 0% 1% 0% 2%;
+}
+.right {
+  padding: 7px 1% 0% 0%
+}
+.chart-card-pie {
+  border-bottom: 10px solid rgba(255, 120, 0, 0.5);
+}
+.chart-text-pie {
+  color: rgba(255, 120, 0, 0.8);
+  padding: 25px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.chart-card-bar {
+  border-bottom: 10px solid rgba(28, 212, 202, 0.5);
+}
+.chart-text-bar {
+  color: rgba(28, 212, 202, 0.8);
+  padding: 25px;
+  text-align: center;
+}
+.confirmed-card {
+  border-bottom: 10px solid rgba(0, 0, 255, 0.5);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.confirmed-text {
+  color: rgba(0, 0, 255, 0.8);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.recovered-card {
+  border-bottom: 10px solid rgba(0, 255, 0, 0.5);
 }
 
-.App-link {
-  color: #61dafb;
+.recovered-text {
+  color: rgba(0, 255, 0, 0.8);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.deaths-card {
+  border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+.deaths-text {
+  color: rgba(255, 0, 0, 0.8);
+}
+
+.vaccines-card {
+  border-bottom: 10px solid rgba(28, 212, 202, 0.5);
+}
+
+.vaccines-text {
+  color: rgba(28, 212, 202, 0.8);
+}
+
+
+.api-text {
+  color: rgba(0, 0, 255, 0.8);
+  text-align: center;
 }
